@@ -15,8 +15,9 @@
   <a class="skip-link" href="#main">Lewati ke konten utama</a>
   <div class="topline"><span>GADING SERPONG · TANGERANG</span><span>Batch kecil, dibuat dengan sabar <i>✳</i></span></div>
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="Roti Seragi — Crafted slowly, baked honestly"><img src="assets/logo-on-dark-bg.webp" alt="Roti Seragi"><span class="brand-tagline">CRAFTED SLOWLY, BAKED HONESTLY</span></a>
-    <button class="menu-toggle" aria-label="Buka navigasi" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button>
+    <div class="header-brand">
+      <a class="header-logo" href="#home" aria-label="Roti Seragi — Crafted slowly, baked honestly"><img src="assets/logo-on-dark-bg.webp" alt="Logo Roti Seragi"><span class="brand-tagline">CRAFTED SLOWLY, BAKED HONESTLY</span></a>
+    </div>
     <nav id="primary-nav" aria-label="Navigasi utama">
       <a href="#cerita" data-id="Cerita kami" data-en="Our story">Cerita kami</a>
       <a href="#roti" data-id="Menu" data-en="The menu">Menu</a>
@@ -27,10 +28,18 @@
       <div class="lang-switch" role="group" aria-label="Pilih bahasa">
         <button type="button" data-language="id" aria-pressed="true">ID</button><button type="button" data-language="en" aria-pressed="false">EN</button>
       </div>
-      <div class="cta-pair">
-        <a class="button button-small" href="https://wa.me/628212129137?text=Halo%20Roti%20Seragi%2C%20saya%20ingin%20bertanya%20tentang%20menu." target="_blank" rel="noopener noreferrer">WhatsApp <span>↗</span></a>
-        <a class="button button-small" href="https://t.me/+628212129137" target="_blank" rel="noopener noreferrer">Telegram <span>↗</span></a>
+      <button class="menu-toggle" aria-label="Buka navigasi" aria-expanded="false" aria-controls="primary-nav">
+        <svg width="18" height="12" viewBox="0 0 18 12" fill="none" aria-hidden="true">
+          <rect width="18" height="1.5" fill="currentColor"/>
+          <rect y="5.25" width="18" height="1.5" fill="currentColor"/>
+          <rect y="10.5" width="18" height="1.5" fill="currentColor"/>
+        </svg>
+      </button>
       </div>
+    <div class="brand-socials" aria-label="Hubungi Roti Seragi">
+      <a class="brand-social brand-social--whatsapp" href="https://wa.me/628212129137?text=Halo%20Roti%20Seragi%2C%20saya%20ingin%20bertanya%20tentang%20menu." target="_blank" rel="noopener noreferrer" aria-label="Hubungi Roti Seragi melalui WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.11-1.34A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.44-4.38-1.2l-.31-.18-3.03.8.81-2.95-.2-.3A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.36-5.86c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/></svg></a>
+      <a class="brand-social brand-social--telegram" href="https://t.me/+628212129137" target="_blank" rel="noopener noreferrer" aria-label="Hubungi Roti Seragi melalui Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.2-1.65 7.78c-.12.56-.45.7-.91.43l-2.52-1.86-1.21 1.17c-.13.13-.25.25-.5.25l.18-2.55 4.63-4.19c.2-.18-.04-.28-.31-.1l-5.72 3.6-2.47-.77c-.54-.17-.55-.54.11-.8l9.65-3.72c.45-.16.84.11.7.76z"/></svg></a>
+    </div>
     </div>
   </header>
 
@@ -108,7 +117,10 @@
           </ul></div>
         </section>
       </div>
-      <div class="menu-cta"><span data-id="Sudah tahu mau yang mana? Kami bantu cek ketersediaannya." data-en="Found your favourite? We'll help check availability.">Sudah tahu mau yang mana? Kami bantu cek ketersediaannya.</span><div class="cta-pair"><a class="button button-light" href="https://wa.me/628212129137?text=Halo%20Roti%20Seragi%2C%20saya%20ingin%20menanyakan%20ketersediaan%20menu." target="_blank" rel="noopener noreferrer" data-id="Tanya lewat WhatsApp <span>↗</span>" data-en="Ask on WhatsApp <span>↗</span>">Tanya lewat WhatsApp <span>↗</span></a><a class="button button-light" href="https://t.me/+628212129137" target="_blank" rel="noopener noreferrer" data-id="Tanya lewat Telegram <span>↗</span>" data-en="Ask on Telegram <span>↗</span>">Tanya lewat Telegram <span>↗</span></a></div></div>
+      <div class="menu-cta"><span data-id="Sudah tahu mau yang mana? Kami bantu cek ketersediaannya." data-en="Found your favourite? We'll help check availability.">Sudah tahu mau yang mana? Kami bantu cek ketersediaannya.</span><div class="cta-pair">
+<a class="contact-icon-button contact-icon-button--whatsapp" href="https://wa.me/628212129137?text=Halo%20Roti%20Seragi%2C%20saya%20ingin%20menanyakan%20ketersediaan%20menu." target="_blank" rel="noopener noreferrer" aria-label="Tanya lewat WhatsApp" title="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.11-1.34A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.44-4.38-1.2l-.31-.18-3.03.8.81-2.95-.2-.3A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.36-5.86c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/></svg></a>
+<a class="contact-icon-button contact-icon-button--telegram" href="https://t.me/+628212129137" target="_blank" rel="noopener noreferrer" aria-label="Tanya lewat Telegram" title="Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.2-1.65 7.78c-.12.56-.45.7-.91.43l-2.52-1.86-1.21 1.17c-.13.13-.25.25-.5.25l.18-2.55 4.63-4.19c.2-.18-.04-.28-.31-.1l-5.72 3.6-2.47-.77c-.54-.17-.55-.54.11-.8l9.65-3.72c.45-.16.84.11.7.76z"/></svg></a>
+        </div></div>
     </section>
 
     <section class="gallery section-wrap" aria-labelledby="gallery-heading">
@@ -129,11 +141,7 @@
           <li><span>02</span><p data-id="Konfirmasi pesanan dan pembayaran melalui QRIS atau transfer." data-en="Confirm your order and pay by QRIS or bank transfer.">Konfirmasi pesanan dan pembayaran melalui QRIS atau transfer.</p></li>
           <li><span>03</span><p data-id="Untuk pickup, alamat dikirim via WhatsApp setelah order dikonfirmasi." data-en="For pickup, we'll send the address via WhatsApp after your order is confirmed.">Untuk pickup, alamat dikirim via WhatsApp setelah order dikonfirmasi.</p></li>
         </ol>
-        <div class="cta-pair">
-          <a class="button" href="https://wa.me/628212129137?text=Halo%20Roti%20Seragi%2C%20saya%20ingin%20bertanya%20tentang%20pesanan." target="_blank" rel="noopener noreferrer" data-id="Pesan via WhatsApp <span>↗</span>" data-en="Order on WhatsApp <span>↗</span>">Pesan via WhatsApp <span>↗</span></a>
-          <a class="button" href="https://t.me/+628212129137" target="_blank" rel="noopener noreferrer" data-id="Pesan via Telegram <span>↗</span>" data-en="Order on Telegram <span>↗</span>">Pesan via Telegram <span>↗</span></a>
         </div>
-      </div>
     </section>
 
     <section class="contact section-wrap" id="kontak">
@@ -154,3 +162,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
